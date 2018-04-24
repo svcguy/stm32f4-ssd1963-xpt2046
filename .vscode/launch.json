@@ -15,7 +15,7 @@
             "logging": {
                 "engineLogging": true
             },
-            "program": "${workspaceRoot}/build/testProject.elf",
+            "program": "${workspaceRoot}/build/stm32f4-ssd1963-xpt2046.elf",
             "miDebuggerPath": "arm-none-eabi-gdb",
             "customLaunchSetupCommands": [
                 {
@@ -25,16 +25,13 @@
                     "text": "target extended-remote COM8"
                 },
                 {
-                    "text": "monitor tpwr enable"
-                },
-                {
                     "text": "monitor swdp_scan"
                 },
                 {
                     "text": "attach 1"
                 },
                 {
-                    "text": "file testProject.elf"
+                    "text": "file stm32f4-ssd1963-xpt2046.elf"
                 },
                 {
                     "text": "load"
