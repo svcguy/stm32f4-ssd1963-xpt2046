@@ -1,5 +1,6 @@
 #include <stdint.h>
 #include "uart_printf.h"
+#include "main.h"
 
 /**
  * @brief Printf redirect to UART

@@ -5,6 +5,8 @@
  extern "C" {
 #endif
 
+#include "usart.h"
+
 #ifdef __GNUC__
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #else

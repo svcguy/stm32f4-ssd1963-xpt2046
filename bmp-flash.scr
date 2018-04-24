@@ -1,4 +1,4 @@
-monitor tpwr enable
+monitor tpwr disable
 monitor swdp_scan
 attach 1
 file ./build/stm32f4-ssd1963-xpt2046.elf
