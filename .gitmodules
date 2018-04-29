@@ -1,0 +1,6 @@
+[submodule "Lib/lvgl"]
+	path = Lib/lvgl
+	url = https://github.com/littlevgl/lvgl
+[submodule "Lib/lv_drivers"]
+	path = Lib/lv_drivers
+	url = https://github.com/littlevgl/lv_drivers
